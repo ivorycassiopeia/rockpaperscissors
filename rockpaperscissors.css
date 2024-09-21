@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px #d7a7e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2d0423;
+  }
+
+h1 {
+    font-family: "Papyrus", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px #d7a7e4;
+    margin-bottom: 1rem;
+}
+
+#btnRock {
+    background-color: purple;
+    border: 3px solid black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    padding: 5px;
+    cursor: pointer;
+    height: 300px;
+    width: 250px;
+}
+
+#btnPaper {
+    background-color: purple;
+    border: 3px solid black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    padding: 5px;
+    cursor: pointer;
+    height: 300px;
+    width: 250px;
+}
+
+#btnScissors {
+    background-color: purple;
+    border: 3px solid black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    padding: 5px;
+    cursor: pointer;
+    height: 300px;
+    width: 250px;
+}
+
+#btnRock:hover {
+    background-color: fuchsia;
+    color: white;
+}
+
+#btnPaper:hover {
+    background-color: fuchsia;
+    color: white;
+}
+
+#btnScissors:hover {
+    background-color: fuchsia;
+    color: white;
+}
+
+#btnReset {
+    background-color: purple;
+    border: 3px solid black;
+    border-radius: 20px;
+    color: white;
+    text-justify: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    padding: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 175px;
+}
+
+#btnReset:hover {
+    background-color: fuchsia;
+    color: black;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: purple;
+    width: auto;
+    height: auto;
+}
+
+#score {
+    font-size: 30px;
+}
