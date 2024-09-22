@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ivorycassiopeia/rockpaperscissors/issues"
   },
-  "homepage": "https://github.com/ivorycassiopeia/rockpaperscissors#readme"
+  "homepage": "https://github.com/ivorycassiopeia/rockpaperscissors#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
